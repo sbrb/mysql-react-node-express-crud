@@ -1,0 +1,50 @@
+html,
+body {
+    font-size: 16px;
+    overflow-x: hidden !important;
+}
+
+.add_btn {
+    text-align: right;
+}
+
+.container {
+    overflow: auto;
+}
+
+.left_view h3 {
+    font-size: 21px;
+}
+
+.left_view p {
+    font-weight: 600;
+}
+
+.left_view span {
+    font-weight: 400;
+}
+
+.right_view p {
+    font-weight: 600;
+}
+
+
+.right_view span {
+    font-weight: 400;
+}
+
+.edit_input {
+    width: 50% !important;
+    height: 40px !important;
+    float: left !important;
+}
+
+.edit_input1 {
+    width: 50%;
+    float: right;
+    margin-top: -3.5rem;
+}
+
+.table_title {
+    width: 1100px !important;
+}

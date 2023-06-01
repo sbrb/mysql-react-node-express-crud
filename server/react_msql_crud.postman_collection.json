@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "8d3531ed-d835-48e6-864f-106ae80bb6df",
+		"name": "react_msql_crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20663867"
+	},
+	"item": [
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getusers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/getusers",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"getusers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateuser",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"hello\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/updateuser/39",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"updateuser",
+						"39"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteuser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/deleteuser/:id",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"deleteuser",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
